@@ -7,9 +7,9 @@
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>
-				classpath:email-context.xml
+				classpath:servlet-context.xml
 				classpath:spring-mvc.xml
-				classpath:spring-member.xml
+				classpath:spring-controller.xml
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup> <!-- 서비스가 시작되자마자 실행 -->
